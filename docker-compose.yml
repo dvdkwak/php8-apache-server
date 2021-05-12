@@ -8,7 +8,7 @@ services:
     networks:
       - web
     ports:
-      - 9999:80
+      - 80:80
     volumes:
       - ./root:/var/www/html
 
