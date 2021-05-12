@@ -1,0 +1,4 @@
+root/*
+config/*
+
+!config/README.md

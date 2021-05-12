@@ -1,0 +1,19 @@
+version: '3.5'
+
+services:
+
+  php:
+    container_name: 'php-8'
+    image: 'php:8-apache'
+    networks:
+      - web
+    ports:
+      - 80:80
+    volumes:
+      - ./root:/var/www/html
+
+networks:
+    web:
+      driver: bridge
+      name: web
+    
