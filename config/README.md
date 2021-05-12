@@ -1,2 +1,1 @@
-# I am a readme file!
-^^
+# In here the config will live :3

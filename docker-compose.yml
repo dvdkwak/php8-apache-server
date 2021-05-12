@@ -11,7 +11,7 @@ services:
       - 80:80
     volumes:
       - ./root:/var/www/html
-      # - ./config/apache:/etc/apache2
+      - ./config/:/etc/apache2/
 
 networks:
     web:
